@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BTM7710G
+D High Side Switch & Low Side Switch Combination
+K High Side Switch, Low Side Switch
+$ENDCMP
+#
+$CMP BTN8982TA
+D High Current PN Half Bridge
+K Motor Driver
+$ENDCMP
+#
+$CMP BTS5120G
+D Smart High-Side Power Switch
+K High Side Switch
+$ENDCMP
+#
+$CMP DF2xx
+D Bridge Rectifier
+K Bridge Rectifier
+$ENDCMP
+#
+$CMP GBI25B
+D Diode Bridge Rectifier
+$ENDCMP
+#
+$CMP ISO1212
+D Isolated 24-V to 60-V digital input receiver Dual-channel
+K Digital Input
+$ENDCMP
+#
+$CMP PIC18F26K22
+D Microcontroller Microchip PIC18F
+K Microcontroller
+$ENDCMP
+#
+$CMP TPS25921A
+D eFuse with Precise Current Limit and Over Voltage Protectio
+K eFuse
+$ENDCMP
+#
+$CMP VO3062
+D Optotriac with Zero Crossing Detection
+K Optotriac
+$ENDCMP
+#
+$CMP mikroBUS_socket
+D Socket mikroBUS mikroElektronika
+K mikroBUS
+$ENDCMP
+#
+#End Doc Library

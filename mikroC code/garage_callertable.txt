@@ -1,0 +1,32 @@
+main
+	MCU_Init
+		PWM1_Init
+		PWM2_Init
+	Flags_Init
+	Interrupt_Init
+	Sleep_Start
+	Button
+		Delay_500us
+	Lights_On
+		Timer_Start
+	Door_Stop
+		PWM1_Stop
+		PWM2_Stop
+	Door_Open
+		PWM1_Set_Duty
+			Mul_16X16_U
+		PWM1_Start
+	Door_Open_Slow
+		PWM1_Set_Duty
+			Mul_16X16_U
+		PWM1_Start
+	Door_Close
+		PWM2_Set_Duty
+			Mul_16X16_U
+		PWM2_Start
+	Door_Close_Slow
+		PWM2_Set_Duty
+			Mul_16X16_U
+		PWM2_Start
+interrupt
+	Sleep_Start
